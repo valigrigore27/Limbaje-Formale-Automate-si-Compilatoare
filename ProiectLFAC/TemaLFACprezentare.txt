@@ -1,0 +1,65 @@
+
+De testat:
+
+
+int a;
+float #b = 1.4;
+char -c;
+const string -s ="test";
+bool @d=true;
+class newClass:{
+PRIVATE:
+int a1;
+int a2;
+function f1()
+{
+a1=10;
+} end_function
+PUBLIC:
+function f2(int a3;){} end_function
+} end_class
+function myfunction(int x; string -y;){}end_function
+function otherfunction(int w; int q;) {
+	int z=0;
+    for(z=0; z<=100; z=z+2;) do { w = z;}
+} end_function
+main
+int l=0;
+float #k;
+const bool @i=true;
+const int j=10;
+int array[j+1];
+string -sir;
+-sir="blablablabal";
+#k=(4.6+7.9)*#b;
+myfunction(1+2;"test";);
+otherfunction(myfunction(l; -sir;); l; 0;);
+newClass create_obj obiect;
+array[2]=3+8;
+if(j>=l) then {
+while(j<20) do {
+l=l+1;
+}}
+else {
+#k=9.8;
+}
+end
+
+
+Check if:
+
+
+int a=10;
+int b=10;
+bool @c=true;
+bool @d=false;
+float #e=2.6;
+float #f=2.4;
+main
+a=b;
+b=a;
+@c=@d;
+@d=@c;
+#e=#f;
+#f=#e;
+

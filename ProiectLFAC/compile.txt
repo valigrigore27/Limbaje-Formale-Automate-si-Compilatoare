@@ -1,0 +1,4 @@
+lex TemaLFAC.l
+yacc -d TemaLFAC.y
+gcc -o TemaLFAC lex.yy.c y.tab.c
+./TemaLFAC
